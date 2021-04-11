@@ -1,4 +1,5 @@
-'''This script scrapes a web page and goes to next page till all pages are scraped'''
+'''This script scrapes a web page and goes to next page till all pages are scraped
+   and writes the data to a csv file'''
 
 from bs4 import BeautifulSoup
 import requests
@@ -49,7 +50,3 @@ while(True):
 
 csv_file.close()
 
-'''tags = soup.find_all(id = True, href = True)
-for tag in tags:
-	print(tag.get_text())'''
-#print(soup.find_all('a', text=re.compile("Bengal")))
