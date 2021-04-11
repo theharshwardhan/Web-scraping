@@ -3,7 +3,6 @@
 
 from bs4 import BeautifulSoup
 import requests
-import re
 import csv
 
 current_page_url = "https://eci.gov.in/files/category/1359-general-election-2019/"
