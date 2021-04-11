@@ -17,6 +17,7 @@ csv_writer.writerow(['headline', 'link'])
 
 container = soup.find_all(class_="ipsType_break ipsContained")
 
+# Get the next page url
 def NextPageUrl(soup, current_page_url):
 	next_page = soup.find_all(class_="ipsPagination_next") # Get the next page info
 	next_page_url = next_page[0].a["href"] # Get url of the next page
