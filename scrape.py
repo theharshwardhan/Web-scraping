@@ -1,4 +1,4 @@
-'''This script scrapes a web page and goes to next page till all pages are scraped
+'''This script scrapes a web page and goes to the next page till all pages are scraped
    and writes the data to a csv file'''
 
 from bs4 import BeautifulSoup
